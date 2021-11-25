@@ -1,0 +1,12 @@
+1637330607691	Rename package 'com.microservice.productservice.controller'
+1637330638814	Rename type 'ProductController'
+1637333392291	Move compilation unit
+1637333399278	Delete element
+1637333422410	Rename type 'Product'
+1637334730738	Rename package 'com.microservice.productservice.axoncommands'
+1637334789479	Rename package 'com.microservice.productservice.axonevents'
+1637334806974	Move compilation unit
+1637334819408	Delete element
+1637334842813	Rename package 'com.microservice.productservice.repository'
+1637334893597	Rename package 'com.microservice.productservice.rest'
+1637334905269	Rename package 'com.microservice.productservice.commands'

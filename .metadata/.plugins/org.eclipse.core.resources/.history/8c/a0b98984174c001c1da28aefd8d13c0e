@@ -1,0 +1,13 @@
+package com.microservice.sagamodule;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CoreSagaModuleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CoreSagaModuleApplication.class, args);
+	}
+
+}

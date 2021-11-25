@@ -1,0 +1,5 @@
+package com.microservice.productservice.core.errorhandling;
+
+public class ProductsServiceEventsErrorHandler {
+
+}

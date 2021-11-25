@@ -1,0 +1,5 @@
+package com.microservice.orderservice.query;
+
+public class OrderEventsHandler {
+
+}

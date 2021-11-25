@@ -1,0 +1,5 @@
+package com.microservice.orderservice.core.events;
+
+public class OrderCreatedEvent {
+
+}

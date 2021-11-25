@@ -1,0 +1,13 @@
+package com.microservice.sagamodule;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CoreSagaModuleApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

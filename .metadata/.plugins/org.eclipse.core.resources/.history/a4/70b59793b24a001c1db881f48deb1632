@@ -1,0 +1,7 @@
+package com.microservice.productservice.core.data;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductLookupRepository extends JpaRepository<T, ID> {
+
+}

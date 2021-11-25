@@ -1,0 +1,10 @@
+package com.microservice.productservice.command;
+
+import org.axonframework.config.ProcessingGroup;
+import org.springframework.stereotype.Component;
+
+@Component
+@ProcessingGroup(value = "product-group")
+public class ProductLookupEventsHandler {
+
+}

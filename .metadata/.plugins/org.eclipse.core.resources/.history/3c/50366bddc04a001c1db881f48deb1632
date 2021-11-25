@@ -1,0 +1,32 @@
+package com.microservice.productservice;
+
+import org.axonframework.commandhandling.CommandBus;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.ApplicationContext;
+
+import com.microservice.productservice.command.interceptor.CreateProductCommandInterceptor;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class ProductServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductServiceApplication.class, args);
+	}
+	
+	/**
+	 * Register create product command interceptor to command bus
+	 * 
+	 * @param context
+	 * @param commandBus
+	 */
+	@Autowired
+	public void registerCreateProductCommandInterceptor(ApplicationContext context, CommandBus commandBus) {
+		
+		commandBus.registerDispatchInterceptor(context.getBean(CreateProductCommandInterceptor.class));
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.microservice.productservice.query.rest;
+
+public class ProductRestModel {
+
+}

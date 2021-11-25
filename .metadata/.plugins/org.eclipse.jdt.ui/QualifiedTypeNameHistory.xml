@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.microservice.productservice.axoncommands.CreateProductCommand"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="org.axonframework.commandhandling.gateway.CommandGateway"/>
+    <fullyQualifiedTypeName name="org.axonframework.spring.stereotype.Aggregate"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.microservice.productservice.axonevents.ProductCreatedEvent"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+    <fullyQualifiedTypeName name="org.axonframework.eventsourcing.EventSourcingHandler"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.command.TargetAggregateIdentifier"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.axonframework.spring.stereotype.Saga"/>
+    <fullyQualifiedTypeName name="com.microservice.orderservice.core.events.OrderCreatedEvent"/>
+    <fullyQualifiedTypeName name="org.axonframework.commandhandling.CommandCallback"/>
+    <fullyQualifiedTypeName name="org.axonframework.commandhandling.CommandHandler"/>
+    <fullyQualifiedTypeName name="com.microservice.sagamodule.commands.ReserveProductCommand"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.command.AggregateLifecycle"/>
+    <fullyQualifiedTypeName name="com.microservice.sagamodule.events.ProductReservedEvent"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.saga.SagaEventHandler"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+</qualifiedTypeNameHistroy>

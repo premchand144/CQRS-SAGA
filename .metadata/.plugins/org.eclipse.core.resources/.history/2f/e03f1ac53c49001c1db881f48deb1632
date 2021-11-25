@@ -1,0 +1,7 @@
+package com.microservice.productservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class ProductRepository implements JpaRepository<E, ID> {
+
+}

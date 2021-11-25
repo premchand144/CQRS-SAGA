@@ -1,0 +1,5 @@
+package com.microservice.orderservice.command.rest;
+
+public class OrdersCommandController {
+
+}

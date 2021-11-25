@@ -1,0 +1,19 @@
+package com.microservice.orderservice.command;
+
+import org.axonframework.modelling.command.AggregateIdentifier;
+import org.axonframework.spring.stereotype.Aggregate;
+
+import com.microservice.orderservice.utility.OrderStatus;
+
+@Aggregate
+public class OrderAggregate {
+	
+	@AggregateIdentifier
+	public String orderId;
+	private String userId;
+	private String productId;
+	private int quantity;
+	private String addressId;
+	private OrderStatus orderStatus;
+
+}

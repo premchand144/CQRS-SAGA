@@ -1,0 +1,14 @@
+package com.microservice.productservice.core.errorhandling;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * Centralized error handling
+ * 
+ * @author premc
+ *
+ */
+@ControllerAdvice
+public class ProductsServiceErrorHandler {
+
+}

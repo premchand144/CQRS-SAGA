@@ -1,0 +1,5 @@
+package com.microservice.sagamodule.commands;
+
+public class ReserveProductCommand {
+
+}
