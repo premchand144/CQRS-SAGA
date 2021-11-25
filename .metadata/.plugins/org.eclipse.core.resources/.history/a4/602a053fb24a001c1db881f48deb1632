@@ -1,7 +1,0 @@
-package com.microservice.productservice.core.data;
-
-import java.io.Serializable;
-
-public class ProductLookupEntity implements Serializable{
-
-}

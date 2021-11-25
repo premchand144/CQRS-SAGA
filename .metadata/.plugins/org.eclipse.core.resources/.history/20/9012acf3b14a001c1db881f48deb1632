@@ -1,5 +1,0 @@
-package com.microservice.productservice.core.data;
-
-public class ProductLookupEntity {
-
-}

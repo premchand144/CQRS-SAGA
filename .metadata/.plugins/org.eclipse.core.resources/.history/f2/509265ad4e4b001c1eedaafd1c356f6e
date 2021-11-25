@@ -1,5 +1,0 @@
-package com.microservice.orderservice.utility;
-
-public class OrderStatus {
-
-}
